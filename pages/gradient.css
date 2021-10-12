@@ -1,0 +1,24 @@
+:root {
+    --clr-bright: #db2ca9;
+    --clr-mid: #186185;
+    --clr-neutral: #b8e069;
+}
+h2 {
+    text-align: center;
+    opacity: .5;
+}
+.color-box {
+    border-radius: 30px;
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, var(--clr-bright), var(--clr-neutral), var(--clr-mid))
+}
+.color-bars {
+    border-radius: 30px;
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    background: repeating-linear-gradient(45deg, var(--clr-bright) 0px, #c24ea1 40px, var(--clr-neutral) 40px, var(--clr-mid) 80px);
+}
