@@ -20,5 +20,41 @@ h2 {
     width: 70%;
     height: 400px;
     margin: auto;
+    margin-top: 120px;
     background: repeating-linear-gradient(45deg, var(--clr-bright) 0px, #c24ea1 40px, var(--clr-neutral) 40px, var(--clr-mid) 80px);
+}
+div:hover {
+    transform: rotateZ(2deg);
+}
+.heart {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--clr-bright);
+    height: 50px;
+    width: 50px;
+    transform: rotate(-45deg);
+}
+.heart::after {
+    background-color: var(--clr-bright);
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 28px; 
+}
+.heart::before {
+    background-color: var(--clr-bright);
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -28px;
+    left: 0px;
 }
