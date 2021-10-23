@@ -1,23 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>This is NOT my first Webpage</title>
-    <meta charset="utf-8"/>
-</head>  
- <body>
-     <center><h1>Hello Multiverse</h1>
-    <p>In the very early days of the internet,<br><img src="https://www.pixelstech.net/article/images/google.jpg"><br> I learned html so I could create my own personal websites as well as a business website. The sites I created back then <em>impressed me</em>, but by modern standards they were very <strong>simple</strong>.</p>
-    
-    <h2>Learning</h2>
-    <p>My first websites were essentially collections of images, thoughts, and quotes. Something akin to what would <strong>become</strong> a Myspace, LiveJournal, Facebook personal page. I learned by inspecting the code of websites I visited often: by copying snipets of information and attempting to apply them to my website, learning to alter them where possible. <em>One of my favorite qualities of early sites was hidden text links leading to easter eggs.</em></p> 
-    <p><a style="color: white;" href="pages/this_is_me.html" visibility:hidden>@@@</a></p>
-    <h3>Business</h3>
-    <p>Eventually I wanted to sell the jewelry I made, <em>thus my second website was more complex</em> with clickable images leading to product pages where a customer could purchase an item.</p>
-    <p>With the appearance of new platforms, I no longer needed to use my knowledge of html to create websites. I stopped using html, in favor of services such as shopify. My current online store is vastly more complex than anything I wrote in the past. When I've attempted to edit the code to adjust my website <strong>I've been met with nothing but heartache!</strong> </p>
-<p style="color:slategrey; font-size: 30px;"><a style="color: slategrey;" href="pages/about.html">About</a></p>
-</center>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Rampart+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="links">
+        <a href="pages/about.html">About</a>
+        <a href="pages/games/guessMyNumber/index.html">Game</a>
+      </div>
+    </header>
+    <div class="intro">
+      <h1>Hello Multiverse</h1>
+      <p></p>
+      <div class="image">
+        <img src="https://www.pixelstech.net/article/images/google.jpg" /><br />
+        <caption>
+          In the very early days of the internet
+        </caption>
+      </div>
+      <p>
+        I learned html so I could create my own personal websites as well as a
+        business website. The sites I created back then <em>impressed me</em>,
+        but by modern standards they were very <strong>simple</strong>.
+      </p>
+    </div>
+    <div class="learn">
+      <h2>Learning</h2>
+      <p>
+        My first websites were essentially collections of images, thoughts, and
+        quotes. Something akin to what would <strong>become</strong> a Myspace,
+        LiveJournal, Facebook personal page. I learned by inspecting the code of
+        websites I visited often: by copying snipets of information and
+        attempting to apply them to my website, learning to alter them where
+        possible.
+        <em
+          >One of my favorite qualities of early sites was hidden text links
+          leading to easter eggs.</em
+        >
+      </p>
+      <p>
+        <a
+          id="egg"
+          style="color: white"
+          href="pages/this_is_me.html"
+          visibility:hidden
+          >@@@</a
+        >
+      </p>
+    </div>
+    <div class="business">
+      <h3>Business</h3>
+      <p>
+        Eventually I wanted to sell the jewelry I made,
+        <em>thus my second website was more complex</em> with clickable images
+        leading to product pages where a customer could purchase an item.
+      </p>
+      <p>
+        With the appearance of new platforms, I no longer needed to use my
+        knowledge of html to create websites. I stopped using html, in favor of
+        services such as shopify. My current online store is vastly more complex
+        than anything I wrote in the past. When I've attempted to edit the code
+        to adjust my website
+        <strong>I've been met with nothing but heartache!</strong>
+      </p>
+    </div>
+
     <h2>That's it for<strong> now</strong></h2>
     <!-- very basic -->
-    <a href="/pages/gradient.html"> <img src="images/GODNIGHT.JPG" alt="Dying robot surrounded by robot friends. Word overlay: Godnight"></a>
-</body> 
+    <a id="godnight" href="/pages/gradient.html">
+      <img
+        src="images/GODNIGHT.JPG"
+        alt="Dying robot surrounded by robot friends. Word overlay: Godnight"
+    /></a>
+  </body>
 </html>
