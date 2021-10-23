@@ -37,7 +37,7 @@ main {
 
 .right {
   width: 52rem;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 h1 {
@@ -110,4 +110,7 @@ button:hover {
 
 .label-score {
   margin-bottom: 2rem;
+}
+p.instructions {
+  font-size: 4rem;
 }
