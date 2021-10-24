@@ -29,15 +29,15 @@ main {
 }
 
 .left {
-  width: 52rem;
+  width: 50rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .right {
-  width: 52rem;
-  font-size: 3rem;
+  width: 50rem;
+  font-size: 2.5rem;
 }
 
 h1 {
@@ -112,5 +112,5 @@ button:hover {
   margin-bottom: 2rem;
 }
 p.instructions {
-  font-size: 4rem;
+  font-size: 3rem;
 }
