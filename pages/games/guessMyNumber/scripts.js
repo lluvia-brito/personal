@@ -24,7 +24,7 @@ document.querySelector(".check").addEventListener("click", function () {
   if (!guess) {
     changeMessage(`Choice was not a valid number`);
   } else if (guess === secretNumber) {
-    changeMessage(`You Guessed my Number! You Win!`);
+    changeMessage(`You Guessed my Number!`);
     document.body.style.backgroundColor = "#37de9b";
     document.body.style.color = "#000000";
     document.querySelector(".secret").style.width = "30rem";
